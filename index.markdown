@@ -4,3 +4,6 @@
 
 layout: home
 ---
+
+# Howdy stranger
+## This is still a WIP, something beautiful will appear here very soon...
