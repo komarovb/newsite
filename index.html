@@ -1,0 +1,32 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+title: "Home"
+---
+
+
+<div class="image-wrapper">
+    <img src="/assets/images/borys_komarov.png" alt="Borys Komarov" class="profile-picture">
+</div>
+
+<div>
+    <h1>Borys Komarov</h1>
+    <h3>Howdy stranger, a little bit about myself - I build software.</h3>
+    <h3>
+        From system administration scripts, to ETL systems, to desktop GUI apps to web services
+        to tomographic reconstruction software. Wherever life takes me I always bring my A game with me.</h3>
+    <h3>
+        Currently, as a Software Developer at <a href="{{ site.data.homepage.radialis_link | escape }}" target="_blank">Radiais</a>,
+        I am utilizing my expertise in Python, C++, and C# to develop and implement innovative software solutions for the medical imaging field.
+    </h3>
+    <h3>In my spare time I enjoy the programmer-friendliness and expressiveness of
+        <img src="/assets/images/ruby_icon.png" class="icon-image">Ruby by working on
+        {%- if site.github_username -%}
+            <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank"> side projects</a>
+        {% else %}
+            side projects
+        {%- endif -%}
+        and freelancing.</h3>
+</div>

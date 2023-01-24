@@ -1,0 +1,28 @@
+nav.site-nav {
+    float: none;
+}
+
+.image-wrapper {
+    float: left;
+    margin: 15px;
+    max-width: 35%;
+}
+
+.image-wrapper img {
+    border-radius: 50%;
+}
+
+.icon-image {
+    height: 20px;
+    width: 20px;
+    margin-right: 3px;
+    padding-bottom: 5px;
+}
+
+@include media-query($on-palm) {
+    .image-wrapper {
+        float: none;
+        max-width: 80%;
+        margin: auto;
+    }
+}
