@@ -26,7 +26,7 @@ tagline: "Personal website of Borys Komarov"
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Hi stranger, welcome to my website. The main reason it exists is to give you an opportunity to
 #   get a bit more familiar with me and my work. Thanks for stopping by!
-google_analytics: "G-8MEHTDJQB8"
+google_analytics: G-8MEHTDJQB8
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://boryskomarov.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  komarovb
