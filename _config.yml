@@ -33,6 +33,7 @@ github_username:  komarovb
 linkedin_username: borys-komarov-45a073b3
 header_pages:
   - index.html
+  - public.html
 
 # Build settings
 theme: minima
