@@ -23,9 +23,8 @@ author: "Borys Komarov"
 title: "Borys Komarov"
 tagline: "Personal website of Borys Komarov"
 # email: fisika80@gmail.com
-# description: >- # this means to ignore newlines until "baseurl:"
-#   Hi stranger, welcome to my website. The main reason it exists is to give you an opportunity to
-#   get a bit more familiar with me and my work. Thanks for stopping by!
+description: >- # this means to ignore newlines until "baseurl:"
+  Powered by Jekyll
 google_analytics: G-8MEHTDJQB8
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://boryskomarov.com" # the base hostname & protocol for your site, e.g. http://example.com
