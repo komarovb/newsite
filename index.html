@@ -24,8 +24,8 @@ title: "Home"
     <h3>
         Outside of my professional pursuits, I find solace in the programmer-friendliness and expressiveness of <img src="/assets/images/ruby_icon.png" class="icon-image" alt="Ruby programming language icon">Ruby programming. 
         I enjoy tackling 
-        {%- if site.github_username -%}
-            <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank" class="external-link"> side projects</a>
+        {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank" class="external-link">side projects</a>
         {% else %}
             side projects
         {%- endif -%}
