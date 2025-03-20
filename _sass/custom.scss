@@ -13,10 +13,26 @@ nav.site-nav {
     float: none;
 }
 
+.top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include media-query($on-palm) {
+        flex-direction: column;
+    }
+}
+
 .image-wrapper {
-    float: left;
     margin: 15px;
-    max-width: 35%;
+    max-width: 40%;
+}
+
+.text-wrapper-home {
+    max-width: 50%;
+    margin-left: 10px;
+    @include media-query($on-palm) {
+        max-width: 100%;
+    }
 }
 
 .image-wrapper img {
@@ -66,4 +82,75 @@ nav.site-nav {
 
 .footer-text {
     line-height: 40px;
+}
+
+.project-image-wrapper {
+    text-align: center;
+
+    .project-image {
+        max-height: 600px;
+    }
+}
+
+.publication-authors {
+    font-style: italic;
+}
+
+.invitation-section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: rgba(79, 135, 107, 0.1); // Light version of $custom-green
+    border-left: 4px solid $custom-green;
+    
+    h3 {
+        color: $custom-green;
+        margin-top: 0;
+        font-weight: 600;
+    }
+    
+    p {
+        margin-bottom: 0.8rem;
+    }
+    
+    ul {
+        margin-left: 1.5rem;
+        
+        li {
+            margin-bottom: 0.7rem;
+            
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+    a {
+        color: $custom-green;
+        font-weight: 500;
+        transition: color 0.2s ease-in-out;
+        
+        &:hover {
+            color: darken($custom-green, 15%);
+            text-decoration: none;
+        }
+    }
+}
+
+@include media-query($on-palm) {
+    .invitation-section {
+        margin: 1.5rem 0;
+        padding: 1rem;
+    }
+}
+
+.image-gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .image-wrapper {
+        margin: auto;
+    }
 }

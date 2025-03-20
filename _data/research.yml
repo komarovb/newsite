@@ -1,0 +1,11 @@
+posters:
+  - title: Application of GPU-based Image Reconstruction for a Clinical Organ-Targeted Positron Emission Tomography (PET) Scanner
+    conference: 2022 IEEE Nuclear Science Symposium, Medical Imaging Conference and Room Temperature Semiconductor Detector Conference
+    link: /assets/files/Borys_Poster_IEEE_2022.pdf
+    preview: /assets/images/ieee-2022-poster.png
+
+publications:
+  - title: Transition to GPU-based reconstruction for clinical organ-targeted PET scanner
+    authors: Borys Komarov, Henry Maa-Hacquoil, Harutyun Poladyan, Brandon Baldassi, Anirudh Shahi, Edward Anashkin, Oleksandr Bubon and Alla Reznik
+    abstract: Objective. This article explores a new graphics processing unit (GPU)-based techniques for efficient image reconstruction in organ-targeted positron emission tomography (PET) scanners with planar detectors. Approach. GPU-based reconstruction is applied to the Radialis low-dose organ-targeted PET technology, developed to overcome the issues of high exposure and limited spatial resolution inherent in traditional whole-body PET/CT (Computed Tomography) scans. The Radialis planar detector technology is based on four-side tileable sensor modules that can be seamlessly combined into a sensing area of the needed size, optimizing the axial field-of-view for specific organs, and maximizing geometric sensitivity. The article explores the transition from central processing unit-based maximum likelihood expectation maximization algorithms to a GPU-based counterpart, demonstrating a tenfold overall speedup in image reconstruction with a hundredfold improvement in iteration speed. Main results. Through standardized PET performance tests and clinical image analysis, this work demonstrates that GPU-based image reconstruction maintains diagnostic image quality while significantly reducing reconstruction times. The application of this technology, particularly in breast imaging using the Radialis low-dose positron emission mammography, significantly reduces exam times thus improving patient comfort and throughput in clinical settings. Significance. This study represents an important advancement in the clinical workflow of PET imaging, providing insights into optimizing reconstruction algorithms to effectively leverage the parallel processing capabilities of GPUs.
+    link: https://doi.org/10.1088/1361-6560/adb198

@@ -1,0 +1,29 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+
+<div class="image-gallery">
+    <div class="image-wrapper">
+        <img src="/assets/images/bk_about_2.jpg" alt="Borys Komarov" class="profile-picture">
+    </div>
+</div>
+
+<div>
+    <h1>Borys Komarov</h1>
+    <p>
+        Currently, I'm leveraging my expertise in Python, C++, and C# as a Software Developer at <a href="{{ site.data.homepage.radialis_link | escape }}" target="_blank" class="external-link">Radialis</a>, 
+        where I focus on developing and implementing innovative software solutions for the medical imaging field.
+    </p>
+    <p>
+        Outside of my professional pursuits, I find solace in the programmer-friendliness and expressiveness of <img src="/assets/images/ruby_icon.png" class="icon-image" alt="Ruby programming language icon">Ruby programming. 
+        I enjoy tackling 
+        {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank" class="external-link">side projects</a>
+        {% else %}
+            side projects
+        {%- endif -%}
+        and consulting opportunities, continuously honing my skills and exploring new avenues within the tech landscape.
+    </p>
+</div>

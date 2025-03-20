@@ -1,0 +1,27 @@
+---
+layout: page
+title: Research
+permalink: /research/
+---
+
+<h2>Publications</h2>
+{% assign publications = site.data.research.publications %}
+{% for publication in publications %}
+    <h4><b>{{ publication.title }}</b></h4>
+    <p>Publication: <a href="{{ publication.link }}" target="_blank" class="external-link"><b>here</b></a></p>
+{% endfor %}
+
+<hr />
+
+<h2>Posters</h2>
+{% assign posters = site.data.research.posters %}
+{% for poster in posters %}
+    <h4><b>{{ poster.title }}</b></h4>
+    <p>{{ poster.conference }}</p>
+    <p>Poster presentation: <a href="{{ poster.link }}" target="_blank" class="external-link"><b>here</b></a></p>
+    <div class="project-image-wrapper">
+        <img src="{{ poster.preview }}" alt="{{ poster.title }}" class="project-image">
+    </div>
+{% endfor %}
+
+
