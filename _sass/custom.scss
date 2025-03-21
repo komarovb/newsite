@@ -9,8 +9,15 @@ $custom-green: #4f876b;
     border-top: 3px solid $custom-green;
 }
 
+.site-logo {
+    display: inline-block;
+    margin-right: 10px;
+    max-width: 50px;
+}
+
 nav.site-nav {
     float: none;
+    display: inline-block;
 }
 
 .top-section {
