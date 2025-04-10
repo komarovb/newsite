@@ -1,0 +1,119 @@
+.research-section {
+    margin-bottom: 3rem;
+}
+
+.publication-card, .poster-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+}
+
+.publication-card.first-author {
+    border-left: 4px solid $custom-green;
+    position: relative;
+}
+
+.publication-title, .poster-title {
+    color: $text-color;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-author-badge {
+    background-color: $custom-green;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    min-width: 75px;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.publication-meta {
+    margin-bottom: 1rem;
+    color: $grey-color;
+    font-style: italic;
+
+    .publication-authors {
+        margin-bottom: 0.5rem;
+    }
+
+    .publication-info {
+        font-size: 0.9rem;
+        color: darken($grey-color, 10%);
+    }
+}
+
+.publication-preview {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    color: $text-color;
+    position: relative;
+    
+    p {
+        margin: 0;
+    }
+}
+
+.poster-conference {
+    color: $grey-color;
+    margin-bottom: 1rem;
+}
+
+.poster-preview {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.poster-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.publication-links, .poster-links {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+    background-color: $custom-green;
+    color: black !important;
+    text-decoration: none;
+
+    &:hover {
+        background-color: darken($custom-green, 15%);
+    }
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: $custom-green;
+    border: 1px solid $custom-green;
+
+    &:hover {
+        background-color: rgba($custom-green, 0.1);
+    }
+} 

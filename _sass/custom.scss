@@ -1,5 +1,8 @@
 $custom-green: #4f876b;
 
+// Import research page styles
+@import "research";
+
 .site-header {
     border-top: none;
     border-bottom: 3px solid $custom-green;

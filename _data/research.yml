@@ -3,9 +3,64 @@ posters:
     conference: 2022 IEEE Nuclear Science Symposium, Medical Imaging Conference and Room Temperature Semiconductor Detector Conference
     link: /assets/files/Borys_Poster_IEEE_2022.pdf
     preview: /assets/images/ieee-2022-poster.png
+    first_author: true
 
 publications:
   - title: Transition to GPU-based reconstruction for clinical organ-targeted PET scanner
     authors: Borys Komarov, Henry Maa-Hacquoil, Harutyun Poladyan, Brandon Baldassi, Anirudh Shahi, Edward Anashkin, Oleksandr Bubon and Alla Reznik
     abstract: Objective. This article explores a new graphics processing unit (GPU)-based techniques for efficient image reconstruction in organ-targeted positron emission tomography (PET) scanners with planar detectors. Approach. GPU-based reconstruction is applied to the Radialis low-dose organ-targeted PET technology, developed to overcome the issues of high exposure and limited spatial resolution inherent in traditional whole-body PET/CT (Computed Tomography) scans. The Radialis planar detector technology is based on four-side tileable sensor modules that can be seamlessly combined into a sensing area of the needed size, optimizing the axial field-of-view for specific organs, and maximizing geometric sensitivity. The article explores the transition from central processing unit-based maximum likelihood expectation maximization algorithms to a GPU-based counterpart, demonstrating a tenfold overall speedup in image reconstruction with a hundredfold improvement in iteration speed. Main results. Through standardized PET performance tests and clinical image analysis, this work demonstrates that GPU-based image reconstruction maintains diagnostic image quality while significantly reducing reconstruction times. The application of this technology, particularly in breast imaging using the Radialis low-dose positron emission mammography, significantly reduces exam times thus improving patient comfort and throughput in clinical settings. Significance. This study represents an important advancement in the clinical workflow of PET imaging, providing insights into optimizing reconstruction algorithms to effectively leverage the parallel processing capabilities of GPUs.
     link: https://doi.org/10.1088/1361-6560/adb198
+    date: 2025-02-14
+    journal: Physics in Medicine and Biology
+    first_author: true
+
+  - title: Multi-angle acquisition and 3D composite reconstruction for organ-targeted PET using planar detectors
+    authors: Anirudh Shahi, Harutyun Poladyan, Edward Anashkin, Borys Komarov, Brandon Baldassi, Madeline Rapley, Alexey Babich, Oleksandr Bubon, Alla Reznik
+    abstract: "Background: This study investigates a multi-angle acquisition method aimed
+      at improving image quality in organ-targeted PET detectors with planar detector
+      heads. Organ-targeted PET technologies have emerged to address limitations
+      of conventional whole-body PET/CT systems, such as restricted axial field-of -
+      view (AFOV), limited spatial resolution, and high radiation exposure associated
+      with PET procedures. The AFOV in organ-targeted PET can be adjusted to the
+      organ of interest, minimizing unwanted signals from other parts of the body, thus
+      improving signal collection efficiency and reducing the dose of administered
+      radiotracer. However, while planar detector PET technology allows for quasi-3D
+      image reconstruction due to the separation between detector heads, it suf-
+      fers from degraded axial spatial resolution and, consequently, reduced recovery
+      coefficients (RCs) along the axial direction perpendicular to the detectors.
+      Purpose: The purpose of this study was to evaluate the concept of multi-
+      angle image acquisition with two planar PET detectors and composite full 3D
+      image reconstruction. This leverages data collection from multiple polar angles
+      to improve the axial spatial resolution in the direction perpendicular to the detec-
+      tor heads. In such, the concept allows to overcome the intrinsic limitations of
+      planar detectors in axial resolution."
+    link: https://doi.org/10.1002/mp.17606
+    date: 2024-12-11
+    journal: Medical Physics
+    first_author: false
+
+  - title: Breast Cancer Detection Using a Low-Dose Positron Emission Digital Mammography System
+    authors: Vivianne Freitas, Xuan Li, Anabel Scaranelo, Frederick Au, Supriya Kulkarni, Sandeep Ghai, Samira Taeb, Oleksandr Bubon, Brandon Baldassi, Borys Komarov, Shayna Parker, Craig A. Macsemchuk, Michael Waterston, Kenneth O. Olsen, Alla Reznik
+    abstract: "Purpose: To investigate the feasibility of low-dose positron emission mammography (PEM) concurrently to MRI to identify breast cancer and determine its local extent.
+      Materials and Methods: In this research ethics board–approved prospective study, participants newly diagnosed with breast cancer with concurrent breast MRI acquisitions were assigned independently of breast density, tumor size, and histopathologic cancer subtype to undergo low-dose PEM with up to 185 MBq of fluorine 18–labeled fluorodeoxyglucose (18F-FDG). Two breast radiologists, unaware of the cancer location, reviewed PEM images taken 1 and 4 hours following 18F-FDG injection. Findings were correlated with histo-pathologic results. Detection accuracy and participant details were examined using logistic regression and summary statistics, and a comparative analysis assessed the efficacy of PEM and MRI additional lesions detection (ClinicalTrials.gov: NCT03520218)."
+    link: https://doi.org/10.1148/rycan.230020
+    date: 2024-03-25
+    journal: "Radiology: Imaging Cancer"
+    first_author: false
+
+  - title: Image quality evaluation for a clinical organ-targeted PET camera
+    authors: Brandon Baldassi, Harutyun Poladyan, Anirudh Shahi, Henry Maa-Hacquoil, Madeline Rapley, Borys Komarov, Justin Stiles, Vivianne Freitas, Michael Waterston, Olexiy Aseyev, Alla Reznik, Oleksandr Bubon
+    abstract: A newly developed clinical organ-targeted Positron Emission Tomography (PET) system (also known as Radialis PET) is tested with a set of standardized and custom tests previously used to evaluate the performance of Positron Emission Mammography (PEM) systems. Imaging characteristics impacting standardized uptake value (SUV) and detectability of small lesions, namely spatial resolution, linearity, uniformity, and recovery coefficients, are evaluated.
+    link: https://doi.org/10.3389/fonc.2024.1268991
+    date: 2024-03-25
+    journal: Frontiers in Oncology
+    first_author: false
+
+  - title: Web Service for Data Aggregation in Esports Domain
+    authors: Borys Komarov, Oleksandr Bubon
+    abstract: This paper presents a web service designed for data aggregation in the esports domain, focusing on efficient data collection and processing from various esports platforms. The service provides a unified interface for accessing and analyzing esports-related data, enabling better insights and analytics for the gaming community.
+    link: https://www.techrxiv.org/users/662246/articles/675614-web-service-for-data-aggregation-in-esports-domain
+    date: 2020-04-08
+    journal: TechRxiv
+    first_author: true
+    
