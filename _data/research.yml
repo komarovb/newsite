@@ -57,7 +57,7 @@ publications:
     first_author: false
 
   - title: Web Service for Data Aggregation in Esports Domain
-    authors: Borys Komarov, Oleksandr Bubon
+    authors: Borys Komarov, Jinan A.Fiaidhi, Jay Patel
     abstract: This paper presents a web service designed for data aggregation in the esports domain, focusing on efficient data collection and processing from various esports platforms. The service provides a unified interface for accessing and analyzing esports-related data, enabling better insights and analytics for the gaming community.
     link: https://www.techrxiv.org/users/662246/articles/675614-web-service-for-data-aggregation-in-esports-domain
     date: 2020-04-08
