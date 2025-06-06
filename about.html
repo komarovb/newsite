@@ -10,20 +10,30 @@ permalink: /about/
     </div>
 </div>
 
-<div>
+<div class="about-content">
     <h1>Borys Komarov</h1>
-    <p>
-        Currently, I'm leveraging my expertise in Python, C++, and C# as a Software Developer at <a href="{{ site.data.homepage.radialis_link | escape }}" target="_blank" class="external-link">Radialis</a>, 
-        where I focus on developing and implementing innovative software solutions for the medical imaging field.
-    </p>
-    <p>
-        Outside of my professional pursuits, I find solace in the programmer-friendliness and expressiveness of <img src="/assets/images/ruby_icon.png" class="icon-image" alt="Ruby programming language icon">Ruby programming. 
-        I enjoy tackling 
-        {% if site.github_username %}
-            <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank" class="external-link">side projects</a>
-        {% else %}
-            side projects
-        {%- endif -%}
-        and consulting opportunities, continuously honing my skills and exploring new avenues within the tech landscape.
-    </p>
+    
+    <div class="about-section">
+        <p>
+            I'm a software developer with a background in clinical imaging and a strong interest in building robust systems that have real-world impact. I currently work at <a href="{{ site.data.homepage.radialis_link | escape }}" target="_blank" class="external-link">Radialis</a>, where I develop software for organ-targeted PET scanners. My work spans the full stack—from low-level hardware interfaces and CUDA-accelerated image reconstruction algorithms to cloud infrastructure, CI pipelines, and automated testing.
+        </p>
+    </div>
+
+    <div class="about-section">
+        <p>
+            I enjoy getting to the bottom of complex issues—debugging, experimenting, and understanding systems deeply. I also take pride in collaboration and mentorship. Helping teammates grow and succeed is one of the most rewarding parts of my work.
+        </p>
+    </div>
+
+    <div class="about-section">
+        <p>
+            Outside of my day job, I find solace in the programmer-friendliness and expressiveness of <img src="/assets/images/ruby_icon.png" class="icon-image" alt="Ruby programming language icon"> Ruby. I enjoy building small tools that solve practical problems—though my favorite side projects still call me “Dad.”
+        </p>
+    </div>
+
+    <div class="about-section">
+        <p>
+            Looking ahead, I'm eager to deepen my experience with large-scale systems in domains that create meaningful change—whether in healthcare, safety, or applied AI. I'm a generalist at heart, and I thrive at the intersection of systems, people, and purpose.
+        </p>
+    </div>
 </div>
